@@ -34,6 +34,7 @@
 	</table>
 
 	<h3>Add Task</h3>
+<!-- 	The user id is passed to the controller to make sure the task is added to the correct userId -->
 	<form action="/add-task?id=${user.id}" method="post">
 	<input type="hidden" name="id" value="${user.id}">
 		Task: <input type="text" name="task"> 

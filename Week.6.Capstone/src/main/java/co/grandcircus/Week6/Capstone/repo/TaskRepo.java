@@ -7,4 +7,5 @@ import co.grandcircus.Week6.Capstone.model.Task;
 public interface TaskRepo extends JpaRepository<Task, Integer> {
 
 	Task findById(int id);
-	}
+	
+}
